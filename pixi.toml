@@ -1,0 +1,18 @@
+[workspace]
+channels  = ["conda-forge"]
+name      = "tank-boy"
+platforms = ["linux-64", "osx-arm64", "win-64"]
+
+[dependencies]
+python     = "3.13.*"
+numpy      = "*"
+matplotlib = "*"
+pillow     = "*"
+ipython    = "*"
+opencv     = "*"
+pytorch    = "*"
+
+# add for Jupyter support
+notebook   = "*"
+jupyterlab = "*"
+ipykernel  = "*"
