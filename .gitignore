@@ -1,2 +1,7 @@
 .pixi
 dataset
+*.pth
+*.json
+*.zip
+*.csv
+*.deb
