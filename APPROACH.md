@@ -23,13 +23,14 @@ I dont think I could get anything more from adding extra layers withoud residual
 
 # V4 
 
-Trying out 3 layers with 24 hours of training to see if this can achieve comparable results. Got 92 % IOU, which is not best but a littlebit worse.
+Trying out 3 layers with 24 hours of training to see if this can achieve comparable results. Got 92 % IOU, which is not best but a littlebit worse. 2900 epochs
 
 
 # CONCLUSION
 
 - Probably the main advancment of my NN was that i removed class prediction within this 1 class dataset. This allowed the training to focus on finding right size and location and confidence of object being there
 - Training for a day got the best result 
+- V3 model with 7 layers after 2900 epochs got best result of IOU of 93.2. Intuitively its not that much better than 3 layer V4 network agter 2900 epochs that got 92.8 IOU.
 
 
 
