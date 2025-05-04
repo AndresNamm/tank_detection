@@ -31,6 +31,7 @@ Trying out 3 layers with 24 hours of training to see if this can achieve compara
 - Probably the main advancment of my NN was that i removed class prediction within this 1 class dataset. This allowed the training to focus on finding right size and location and confidence of object being there
 - Training for a day got the best result 
 - V3 model with 7 layers after 2900 epochs got best result of IOU of 93.2. Intuitively its not that much better than 3 layer V4 network agter 2900 epochs that got 92.8 IOU.
+- It seems tiny very specific network can get relatively good without crasy amount of training and data. [Discussion about this](https://chatgpt.com/share/68172f52-2f90-8008-b860-5e8eff4e8b53)
 
 
 
