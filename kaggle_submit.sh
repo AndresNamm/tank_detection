@@ -1,0 +1,1 @@
+kaggle competitions submit -c image-innovators -f submission.csv -m "Message"
